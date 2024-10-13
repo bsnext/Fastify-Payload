@@ -1,0 +1,39 @@
+{
+	"name": "@bsnext/fastify-payload",
+	"version": "1.0.4",
+	"description": "Adding raw-body data as 'request.payload' field into Fastify Requests.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"start": "node dist/index.js",
+		"build": "tsc --project tsconfig.json",
+		"watch": "tsc --watch",
+		"test": "node dist/test/default-content-data.js && node dist/test/more-content-data.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bsnext/Fastify-Payload"
+	},
+	"keywords": [
+		"fastify",
+		"payload",
+		"raw",
+		"body"
+	],
+	"bugs": {
+		"url": "https://github.com/bsnext/Fastify-Payload/issues"
+	},
+	"homepage": "https://github.com/bsnext/Fastify-Payload#readme",
+	"author": "SalwadoR",
+	"type": "commonjs",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^22.7.5",
+		"fastify": "^4.14.0",
+		"typescript": "^5.6.3",
+		"uvu": "^0.5.6"
+	},
+	"dependencies": {
+		"fastify-plugin": "^5.0.1"
+	}
+}
