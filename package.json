@@ -1,6 +1,6 @@
 {
 	"name": "@bsnext/fastify-payload",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Adding raw-body data as 'request.payload' field into Fastify Requests.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",

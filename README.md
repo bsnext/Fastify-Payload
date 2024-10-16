@@ -1,7 +1,7 @@
 # Fastify-Payload
 ![Build & Test](https://github.com/bsnext/fastify-payload/actions/workflows/test.yml/badge.svg)
 ![Node.JS Supported](https://badgen.net/static/Node.JS/%3E=19.0.0/green)
-![Fastify Supported](https://badgen.net/static/Fastify/%3E=14/green)
+![Fastify Supported](https://badgen.net/static/Fastify/%3E=4.14.0/green)
 ![Install Size](https://badgen.net/packagephobia/install/@bsnext/fastify-payload)
 ![Dependencies](https://badgen.net/bundlephobia/dependency-count/@bsnext/fastify-payload)
 ![License](https://badgen.net/static/license/MIT/blue)
