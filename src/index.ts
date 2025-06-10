@@ -1,4 +1,4 @@
-import { FastifyInstance, FastifyRequest, FastifyBodyParser, FastifyError } from "fastify";
+import type { FastifyInstance, FastifyRequest, FastifyBodyParser, FastifyError } from "fastify";
 import FastifyPlugin from "fastify-plugin";
 
 ////////////////////////////////
